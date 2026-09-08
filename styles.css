@@ -39,7 +39,7 @@ a { color: inherit; }
   justify-content: space-between;
 }
 .brand img {
-  width: 148px;
+  width: 180px;
   height: auto;
 }
 .nav { display: flex; gap: 34px; align-items: center; }
@@ -387,7 +387,7 @@ a { color: inherit; }
 }
 .contact-mail {
   display: inline-block;
-  font-size: clamp(24px, 3.2vw, 42px);
+  font-size: clamp(22px, 2.6vw, 34px);
   font-weight: 800;
   letter-spacing: -.04em;
   text-decoration: none;
@@ -466,7 +466,7 @@ a { color: inherit; }
 
 @media (max-width: 560px) {
   .header-inner { height: 68px; }
-  .brand img { width: 126px; }
+  .brand img { width: 145px; }
   .nav { top: 68px; }
   .hero-grid { padding-top: 68px; }
   .hero h1 { font-size: 56px; }
@@ -481,4 +481,8 @@ a { color: inherit; }
   .philosophy-line i { width: 20px; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
   .footer-right { text-align: left; }
+}
+
+.notranslate {
+  translate: none;
 }
